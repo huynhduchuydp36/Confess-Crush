@@ -15,6 +15,11 @@
 </head>
 
 <body onload="loadSound()">
+    <iframe src="sound/pp.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
+    <audio autoplay loop  id="playAudio">
+    <source src="sound/pp.mp3">
+</audio>
     <div class="wrapper">
         <!-- Preloader -->
         <div id="preloader">
@@ -46,6 +51,13 @@
     <script src="./js/main.js"></script>
 
     <script>
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
         function loadSound() {
             var audio = new Audio('sound/sound.mp3');
             audio.play();
