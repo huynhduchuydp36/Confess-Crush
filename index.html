@@ -51,12 +51,18 @@
     <script src="./js/main.js"></script>
 
     <script>
+     
+}
         var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
   if (!isChrome){
-      $('#iframeAudio').remove()
+      $('#iframeAudio').remove();
+         window.onload = function() {
+    document.getElementById("playAudio").play();
   }
   else {
       $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+         window.onload = function() {
+    document.getElementById("iframeAudio").play();
   }
         function loadSound() {
             var audio = new Audio('sound/pp.mp3');
