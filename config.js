@@ -1,6 +1,6 @@
 const CONFIG = {
     titleWeb: "Một chiếc web gửi lời mời!",
-    introTitle: 'Chào bé 🌱!',
+    introTitle: 'Chào bé 🌱rang!',
     introDesc: `Anh không tin vào "Thích từ cái nhìn đầu tiên" cho tới khi anh nhìn lại hình em mấy lần để xác nhận.`,
     btnIntro: '^^Mở ✉ nào!^^',
     title: 'Thích ai đó ngay từ cái nhìn đầu tiên thật tuyệt 🥰',
