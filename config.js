@@ -9,7 +9,7 @@ const CONFIG = {
     btnNo: 'Không đâu nha :3',
     question: 'Em có muốn tối nay có một cuộc hẹn với một người bạn mới, cùng uống gì đó nói vớ vẩn cho nhau nghe <3',
     btnReply: 'Click đến bước cuối cùng nào <3',
-    reply: 'Không đủ kinh phí để thêm chức năng lấy dữ liệu 😅😅',
+    reply: 'Xác nhận trực tiếp nhé !!!',
     mess: 'Có người đang chờ xác nhận ở mess đấy 😪',
     messDesc: 'Nhấn Ok sẽ được chuyển đến người đợi á!!!',
     btnAccept: 'Okiiiii  <3',
