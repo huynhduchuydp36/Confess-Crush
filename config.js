@@ -1,8 +1,8 @@
 const CONFIG = {
     titleWeb: "Một chiếc web gửi lời mời!",
-    introTitle: 'Chào Em!',
+    introTitle: 'Chào bé 🌱!',
     introDesc: `Anh không tin vào "Thích từ cái nhìn đầu tiên" cho tới khi anh nhìn lại hình em mấy lần để xác nhận.`,
-    btnIntro: '^^Mở thư nào!^^',
+    btnIntro: '^^Mở ✉ nào!^^',
     title: 'Thích ai đó ngay từ cái nhìn đầu tiên thật tuyệt 🥰',
     desc: 'Sẽ tuyệt vời hơn nếu ta có cơ hội để yêu luôn tính cách con người họ. Em muốn thử không ?',
     btnYes: 'Thì là có ấyy <33',
