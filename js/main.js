@@ -40,6 +40,9 @@ function firstQuestion() {
         confirmButtonText: CONFIG.btnIntro
     }).then(function() {
         $('.content').show(200);
+        var audio = new Audio('sound/thi2.mp3');
+            audio.loop = true;
+            audio.play();
     })
 }
 
