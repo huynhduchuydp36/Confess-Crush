@@ -1,7 +1,7 @@
 const CONFIG = {
     titleWeb: "Một chiếc web gửi lời mời!",
     introTitle: 'Chào cô bé!',
-    introDesc: `Hihi đoán xem có gì trông này 🤣`,
+    introDesc: `Hihi đoán xem có gì trong này 🤣`,
     btnIntro: '✉',
     title: '😇 Cảm ơn giọng hát tuyệt zời đã cứu rỗi mấy bài hát anh viết 😇',
     desc: 'Em có muốn hôm nay được gặp mặt một người chưa thấy trực tiếp uống gì đó nói ba láp ba xàm hông ? 😁',
